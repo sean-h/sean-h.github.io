@@ -1,7 +1,13 @@
-<h1>Sean Humeniuk</h1>
-<a class="mailto" href="mailto:seanhumeniuk@gmail.com">
-  <span class="octicon octicon-mail">seanhumeniuk@gmail.com</span>
-</a>
-<a class="github" href="http://github.com/sean-h">
-  <span class="octicon octicon-mark-github">sean-h</span>
-</a>
+<div class="header container">
+  <h1>Sean Humeniuk</h1>
+  <% unless data.contact.email.nil? %>
+    <a class="mailto" href="mailto:<%= data.contact.email %>">
+      <span class="octicon octicon-mail"><%= data.contact.email %></span>
+    </a>
+  <% end %>
+  <% unless data.contact.github.nil? %>
+    <a class="github" href="http://github.com/<%= data.contact.github %>">
+      <span class="octicon octicon-mark-github"><%= data.contact.github %></span>
+    </a>
+  <% end %>
+</div>
