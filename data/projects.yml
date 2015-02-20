@@ -1,0 +1,25 @@
+projects:
+    - title: Paintmanager Android App
+      octicon: octicon-device-mobile
+      technologies: Java, Android
+      github: https://github.com/sean-h/paintmanager
+      demo: example.com
+      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula porttitor leo a mattis. Praesent quis metus sed nisl sagittis dictum at id ipsum. Maecenas ac volutpat tortor, vitae dictum tortor. Vestibulum quis augue ut massa facilisis tempus. Fusce ac eros sit amet odio ultrices ultrices. Sed libero mi, eleifend non massa id, rutrum porta elit. Morbi feugiat sapien ipsum, ac consectetur neque ornare sed. Proin pulvinar massa vitae sapien dignissim, sit amet malesuada arcu suscipit.
+    - title: Paintmanager REST API
+      octicon: octicon-paintcan
+      technologies: Ruby, Sinatra
+      github: https://github.com/sean-h/paintmanager-api
+      demo: example.com
+      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula porttitor leo a mattis. Praesent quis metus sed nisl sagittis dictum at id ipsum. Maecenas ac volutpat tortor, vitae dictum tortor. Vestibulum quis augue ut massa facilisis tempus. Fusce ac eros sit amet odio ultrices ultrices. Sed libero mi, eleifend non massa id, rutrum porta elit. Morbi feugiat sapien ipsum, ac consectetur neque ornare sed. Proin pulvinar massa vitae sapien dignissim, sit amet malesuada arcu suscipit.
+    - title: Paintmanager Website
+      octicon: octicon-browser
+      technologies: Javascript, Angular.js, HTML, CSS
+      github: https://github.com/sean-h/paintmanager-api
+      demo: example.com
+      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula porttitor leo a mattis. Praesent quis metus sed nisl sagittis dictum at id ipsum. Maecenas ac volutpat tortor, vitae dictum tortor. Vestibulum quis augue ut massa facilisis tempus. Fusce ac eros sit amet odio ultrices ultrices. Sed libero mi, eleifend non massa id, rutrum porta elit. Morbi feugiat sapien ipsum, ac consectetur neque ornare sed. Proin pulvinar massa vitae sapien dignissim, sit amet malesuada arcu suscipit.
+    - title: Bookmarket
+      octicon: octicon-book
+      technologies: Ruby, Sinatra
+      github: https://github.com/cs4431/database
+      demo: example.com
+      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula porttitor leo a mattis. Praesent quis metus sed nisl sagittis dictum at id ipsum. Maecenas ac volutpat tortor, vitae dictum tortor. Vestibulum quis augue ut massa facilisis tempus. Fusce ac eros sit amet odio ultrices ultrices. Sed libero mi, eleifend non massa id, rutrum porta elit. Morbi feugiat sapien ipsum, ac consectetur neque ornare sed. Proin pulvinar massa vitae sapien dignissim, sit amet malesuada arcu suscipit.
