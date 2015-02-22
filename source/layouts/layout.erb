@@ -10,12 +10,13 @@
     <title><%= current_page.data.title || "The Middleman" %></title>
     
     <%= stylesheet_link_tag "normalize", "all", "bootstrap", "octicons/octicons" %>
-    <%= javascript_include_tag  "all", "bootstrap" %>
 
   </head>
   
   <body class="<%= page_classes %>">
     <%= partial "header" %> 
     <%= yield %>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <%= javascript_include_tag  "all", "bootstrap" %>
   </body>
 </html>
