@@ -11,7 +11,13 @@
 
         <div class="col-sm-8">
           <div class="row">
-            <div class="col-sm-11 project-title"><%= project.title %></div>
+            <div class="col-sm-11 project-title">
+              <% if project.demo.nil? %>
+                <%= project.title %>
+              <% else %>
+                <a href="<%= project.demo %>"><%= project.title %></a>
+              <% end %>
+            </div>
             <% unless project.github.nil? %>
                 <div class="col-sm-1 github-link">
                     <a href="<%= project.github %>"><span class="octicon octicon-logo-github"></span></a>
