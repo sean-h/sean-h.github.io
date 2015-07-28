@@ -3,25 +3,25 @@ projects:
       octicon: octicon-device-mobile
       technologies: Java, Android
       github: https://github.com/sean-h/paintmanager
-      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula porttitor leo a mattis. Praesent quis metus sed nisl sagittis dictum at id ipsum. Maecenas ac volutpat tortor, vitae dictum tortor. Vestibulum quis augue ut massa facilisis tempus. Fusce ac eros sit amet odio ultrices ultrices. Sed libero mi, eleifend non massa id, rutrum porta elit. Morbi feugiat sapien ipsum, ac consectetur neque ornare sed. Proin pulvinar massa vitae sapien dignissim, sit amet malesuada arcu suscipit.
+      description: Paintmanager is an android app to manage a collection of model paints. The app connects to a custom REST API to sync data between devices.
     - title: Paintmanager REST API
       octicon: octicon-paintcan
       technologies: Ruby, Sinatra
       github: https://github.com/sean-h/paintmanager-api
-      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula porttitor leo a mattis. Praesent quis metus sed nisl sagittis dictum at id ipsum. Maecenas ac volutpat tortor, vitae dictum tortor. Vestibulum quis augue ut massa facilisis tempus. Fusce ac eros sit amet odio ultrices ultrices. Sed libero mi, eleifend non massa id, rutrum porta elit. Morbi feugiat sapien ipsum, ac consectetur neque ornare sed. Proin pulvinar massa vitae sapien dignissim, sit amet malesuada arcu suscipit.
+      description: REST API to handle database interaction for the Paintmanager App and website.
     - title: Paintmanager Website
       octicon: octicon-browser
-      technologies: Javascript, Angular.js, HTML, CSS
+      technologies: JavaScript, Angular.js, Bootstrap
       github: https://github.com/sean-h/paintmanager-api
-      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula porttitor leo a mattis. Praesent quis metus sed nisl sagittis dictum at id ipsum. Maecenas ac volutpat tortor, vitae dictum tortor. Vestibulum quis augue ut massa facilisis tempus. Fusce ac eros sit amet odio ultrices ultrices. Sed libero mi, eleifend non massa id, rutrum porta elit. Morbi feugiat sapien ipsum, ac consectetur neque ornare sed. Proin pulvinar massa vitae sapien dignissim, sit amet malesuada arcu suscipit.
+      description: Front-end web app for Paintmanager.
     - title: Bookmarket
       octicon: octicon-book
       technologies: Ruby, Sinatra
       github: https://github.com/cs4431/database
-      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula porttitor leo a mattis. Praesent quis metus sed nisl sagittis dictum at id ipsum. Maecenas ac volutpat tortor, vitae dictum tortor. Vestibulum quis augue ut massa facilisis tempus. Fusce ac eros sit amet odio ultrices ultrices. Sed libero mi, eleifend non massa id, rutrum porta elit. Morbi feugiat sapien ipsum, ac consectetur neque ornare sed. Proin pulvinar massa vitae sapien dignissim, sit amet malesuada arcu suscipit.
-    - title: Javascript Canvas Experiments
+      description: REST API for an online portal to allow university students to buy and sell used textbooks.
+    - title: JavaScript Canvas Experiments
       octicon: octicon-tools
       technologies: JavaScript
       demo: /js-experiments
       github: https://github.com/sean-h/sean-h.github.io/tree/master/js-experiments/js
-      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula porttitor leo a mattis. Praesent quis metus sed nisl sagittis dictum at id ipsum. Maecenas ac volutpat tortor, vitae dictum tortor. Vestibulum quis augue ut massa facilisis tempus. Fusce ac eros sit amet odio ultrices ultrices. Sed libero mi, eleifend non massa id, rutrum porta elit. Morbi feugiat sapien ipsum, ac consectetur neque ornare sed. Proin pulvinar massa vitae sapien dignissim, sit amet malesuada arcu suscipit.
+      description: A collection of JavaScript canvas experiments.
