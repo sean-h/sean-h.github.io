@@ -35,6 +35,16 @@
 
       <div class="row project-links">
       </div>
+  
+      <% unless project.images.nil? %>
+        <div class="col-sm-offset-1">
+        <% project.images.each do |image| %>
+          <a class="fancybox" rel="sample-gallery" href="images/<%= image.full %>" title="<%= image.title %>">
+            <img src="images/<%= image.thumb %>" alt="" />
+          </a>
+        <% end %>
+        </div>
+      <% end %>
     </div>
   <% end %>
 </div>

@@ -4,6 +4,13 @@ projects:
       technologies: Java, Android
       github: https://github.com/sean-h/paintmanager
       description: Paintmanager is an android app to manage a collection of model paints. The app connects to a custom REST API to sync data between devices.
+      images:
+        - title: Filtering by Paint Range
+          full: paintmanager-android-1.png
+          thumb: paintmanager-android-1-thumb.png 
+        - title: Status filtering
+          full: paintmanager-android-2.png
+          thumb: paintmanager-android-2-thumb.png 
     - title: Paintmanager REST API
       octicon: octicon-paintcan
       technologies: Ruby, Sinatra

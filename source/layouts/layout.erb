@@ -9,7 +9,7 @@
     <!-- Use title if it's in the page YAML frontmatter -->
     <title><%= current_page.data.title || "The Middleman" %></title>
     
-    <%= stylesheet_link_tag "normalize", "all", "bootstrap", "octicons/octicons" %>
+    <%= stylesheet_link_tag "normalize", "all", "bootstrap", "octicons/octicons", "jquery.fancybox.css?v=2.1.5" %>
 
   </head>
   
@@ -17,6 +17,11 @@
     <%= partial "header" %> 
     <%= yield %>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <%= javascript_include_tag  "all", "bootstrap" %>
+    <%= javascript_include_tag  "all", "bootstrap", "jquery-1.10.1.min", "jquery.fancybox.pack" %>
+    <script type="text/javascript">
+      $(document).ready(function() {
+            $(".fancybox").fancybox();
+              });
+    </script>
   </body>
 </html>
