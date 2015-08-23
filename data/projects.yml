@@ -21,6 +21,16 @@ projects:
       technologies: JavaScript, Angular.js, Bootstrap
       github: https://github.com/sean-h/paintmanager-api
       description: Front-end web app for Paintmanager.
+      images:
+        - title: Paint Status Page
+          full: paint-site.png
+          thumb: paint-site-thumb.png
+        - title: Filtering paints by name
+          full: paint-name.png
+          thumb: paint-name-thumb.png
+        - title: Filtering paints by status
+          full: paint-status.png
+          thumb: paint-status-thumb.png
     - title: Bookmarket
       octicon: octicon-book
       technologies: Ruby, Sinatra
@@ -32,3 +42,10 @@ projects:
       demo: /js-experiments
       github: https://github.com/sean-h/sean-h.github.io/tree/master/js-experiments/js
       description: A collection of JavaScript canvas experiments.
+      images:
+        - title: Dragon Curve Fractal
+          full: dragon.png
+          thumb: dragon-thumb.png
+        - title: Chaos Game Sierpinski Triangle
+          full: triangle.png
+          thumb: triangle-thumb.png
