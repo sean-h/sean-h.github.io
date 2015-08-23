@@ -2,7 +2,7 @@ projects:
     - title: Paintmanager Android App
       octicon: octicon-device-mobile
       technologies: Java, Android
-      github: https://github.com/sean-h/paintmanager
+      github: https://github.com/sean-h/paintmanager-androidstudio
       description: Paintmanager is an android app to manage a collection of model paints. The app connects to a custom REST API to sync data between devices.
       images:
         - title: Filtering by Paint Range
@@ -19,7 +19,7 @@ projects:
     - title: Paintmanager Website
       octicon: octicon-browser
       technologies: JavaScript, Angular.js, Bootstrap
-      github: https://github.com/sean-h/paintmanager-api
+      github: https://github.com/sean-h/paintmanager-api/tree/master/public
       description: Front-end web app for Paintmanager.
       images:
         - title: Paint Status Page
