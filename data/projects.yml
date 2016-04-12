@@ -1,4 +1,25 @@
 projects:
+    - title: Racing Game
+      octicon: octicon-history
+      technologies: C#, Unity
+      description: 3D racing game featuring 3 race tracks, controller support and high score board. The game uses art assets from the Unity Asset Store.
+      images:
+        - title: Main Menu
+          full: racing1.jpg
+          thumb: racing1_thumb.jpg
+        - title: Track Selection Screen
+          full: racing2.jpg
+          thumb: racing2_thumb.jpg
+        - title:
+          full: racing3.jpg
+          thumb: racing3_thumb.jpg
+        - title:
+          full: racing4.jpg
+          thumb: racing4_thumb.jpg
+        - title: New High Score Menu
+          full: racing5.jpg
+          thumb: racing5_thumb.jpg
+
     - title: Paintmanager Android App
       octicon: octicon-device-mobile
       technologies: Java, Android
@@ -11,11 +32,13 @@ projects:
         - title: Status filtering
           full: paintmanager-android-2.png
           thumb: paintmanager-android-2-thumb.png 
+
     - title: Paintmanager REST API
       octicon: octicon-paintcan
       technologies: Ruby, Sinatra
       github: https://github.com/sean-h/paintmanager-api
       description: REST API to handle database interaction for the Paintmanager App and website.
+
     - title: Paintmanager Website
       octicon: octicon-browser
       technologies: JavaScript, Angular.js, Bootstrap
@@ -31,11 +54,13 @@ projects:
         - title: Filtering paints by status
           full: paint-status.png
           thumb: paint-status-thumb.png
+
     - title: Bookmarket
       octicon: octicon-book
       technologies: Ruby, Sinatra
       github: https://github.com/cs4431/database
       description: REST API for an online portal to allow university students to buy and sell used textbooks.
+
     - title: JavaScript Canvas Experiments
       octicon: octicon-tools
       technologies: JavaScript
