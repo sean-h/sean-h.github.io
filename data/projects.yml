@@ -1,6 +1,6 @@
 projects:
     - title: Racing Game
-      octicon: octicon-history
+      octicon: octicon-dashboard
       technologies: C#, Unity
       description: 3D racing game featuring 3 race tracks, controller support and high score board. The game uses art assets from the Unity Asset Store.
       images:
@@ -19,6 +19,30 @@ projects:
         - title: New High Score Menu
           full: racing5.jpg
           thumb: racing5_thumb.jpg
+
+    - title: Shooting Gallery
+      octicon: octicon-milestone
+      technologies: C#, Unity
+      description: 3D first person shooter. Players have to shoot targets when they pop up to score points. The player can choose from 4 different weapons. Weapon accuracy depends on the player's stance, their movement speed and the time since they last shot. The game uses art assets from the Unity Asset Store.
+      images:
+        - title: Target range before targets start popping up
+          full: gallery1.png
+          thumb: gallery1_thumb.png
+        - title: Moving decreases weapon accuracy
+          full: gallery2.png
+          thumb: gallery2_thumb.png
+        - title: Reloading
+          full: gallery3.png
+          thumb: gallery3_thumb.png
+        - title: The shotgun fires multiple projectiles in a cone
+          full: gallery4.png
+          thumb: gallery4_thumb.png
+        - title: The rifle is able to zoom in
+          full: gallery5.png
+          thumb: gallery5_thumb.png
+        - title: Crouching increases accuracy
+          full: gallery6.png
+          thumb: gallery6_thumb.png
 
     - title: Paintmanager Android App
       octicon: octicon-device-mobile
