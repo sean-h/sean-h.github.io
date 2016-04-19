@@ -80,6 +80,27 @@ projects:
           full: ZombieShooter10.png
           thumb: ZombieShooter10_thumb.png
 
+    - title: Stencil Creator
+      octicon: octicon-pencil
+      technologies: C#, WPF
+      description: Stencil Creator is an application for creating stencil masks quickly. These masks are used for texturing 3d models in a program such as <a href="https://www.allegorithmic.com">Substance Painter</a>.
+      images:
+        - title: View after opening the program
+          full: StencilCreator1.png
+          thumb: StencilCreator1_thumb.png
+        - title: Filtering by font name; Changing the font size and text output
+          full: StencilCreator2.png
+          thumb: StencilCreator2_thumb.png
+        - title: Sample output
+          full: StencilCreator3.png
+          thumb: StencilCreator3_thumb.png
+        - title: Applying the stencil to a model
+          full: StencilCreator4.png
+          thumb: StencilCreator4_thumb.png
+        - title: The finished result.
+          full: StencilCreator5.png
+          thumb: StencilCreator5_thumb.png
+
     - title: Paintmanager Android App
       octicon: octicon-device-mobile
       technologies: Java, Android
