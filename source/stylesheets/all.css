@@ -39,6 +39,11 @@ h1 {
   padding: 0;
 }
 
+.education .octicon {
+  font-size: 32px;
+  margin-right: 0.5em;
+}
+
 .projects h2 {
   text-align: center;
 }
@@ -50,6 +55,11 @@ h1 {
 
 .project-title {
   font-size: 24px;
+}
+
+.projects .octicon {
+  font-size: 32px;
+  margin-right: 0.5em;
 }
 
 .project .octicon {
@@ -64,8 +74,4 @@ h1 {
 
 .project-top-bar {
   margin-top: 5px;
-}
-
-.education .octicon {
-  font-size: 32px;
 }
