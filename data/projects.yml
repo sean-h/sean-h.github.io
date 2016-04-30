@@ -143,7 +143,7 @@ projects:
       description: REST API for an online portal to allow university students to buy and sell used textbooks.
 
     - title: JavaScript Canvas Experiments
-      octicon: octicon-tools
+      octicon: octicon-beaker
       technologies: JavaScript
       demo: /js-experiments
       github: https://github.com/sean-h/sean-h.github.io/tree/master/js-experiments/js
