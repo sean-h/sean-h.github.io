@@ -1,50 +1,52 @@
 <div class="projects container">
   <h2><span class="octicon octicon-tools"></span>Projects</h2>
   <% data.projects.projects.each do |project| %>
-    <div class="project">
-      <div class="row project-top-bar">
-          <div class="col-sm-1 project-image">
-            <% unless project.octicon.nil? %>
-              <span class="octicon <%= project.octicon %>"></span>
-            <% end %>
-          </div>
-
-        <div class="col-sm-8">
-          <div class="row">
-            <div class="col-sm-11 project-title">
-              <% if project.demo.nil? %>
-                <%= project.title %>
-              <% else %>
-                <a href="<%= project.demo %>"><%= project.title %></a>
+    <% if project.active == true %>
+      <div class="project">
+        <div class="row project-top-bar">
+            <div class="col-sm-1 project-image">
+              <% unless project.octicon.nil? %>
+                <span class="octicon <%= project.octicon %>"></span>
               <% end %>
             </div>
-            <% unless project.github.nil? %>
-                <div class="col-sm-1 github-link">
-                    <a href="<%= project.github %>"><span class="octicon octicon-logo-github"></span></a>
-                </div>
-            <% end %>
-          </div>
-          <div class="row">
-            <div class="col-sm-10"><%= project.technologies %></div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-11 col-sm-offset-1"><%= project.description %></div>
-      </div>
 
-      <div class="row project-links">
-      </div>
-  
-      <% unless project.images.nil? %>
-        <div class="col-sm-offset-1">
-        <% project.images.each do |image| %>
-          <a class="fancybox" rel="sample-gallery" href="images/<%= image.full %>" title="<%= image.title %>">
-            <img src="images/<%= image.thumb %>" alt="" />
-          </a>
-        <% end %>
+          <div class="col-sm-8">
+            <div class="row">
+              <div class="col-sm-11 project-title">
+                <% if project.demo.nil? %>
+                  <%= project.title %>
+                <% else %>
+                  <a href="<%= project.demo %>"><%= project.title %></a>
+                <% end %>
+              </div>
+              <% unless project.github.nil? %>
+                  <div class="col-sm-1 github-link">
+                      <a href="<%= project.github %>"><span class="octicon octicon-logo-github"></span></a>
+                  </div>
+              <% end %>
+            </div>
+            <div class="row">
+              <div class="col-sm-10"><%= project.technologies %></div>
+            </div>
+          </div>
         </div>
-      <% end %>
-    </div>
+        <div class="row">
+          <div class="col-sm-11 col-sm-offset-1"><%= project.description %></div>
+        </div>
+
+        <div class="row project-links">
+        </div>
+    
+        <% unless project.images.nil? %>
+          <div class="col-sm-offset-1">
+          <% project.images.each do |image| %>
+            <a class="fancybox" rel="sample-gallery" href="images/<%= image.full %>" title="<%= image.title %>">
+              <img src="images/<%= image.thumb %>" alt="" />
+            </a>
+          <% end %>
+          </div>
+        <% end %>
+      </div>
+    <% end %>
   <% end %>
 </div>

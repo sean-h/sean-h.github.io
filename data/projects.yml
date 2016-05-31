@@ -1,5 +1,6 @@
 projects:
     - title: Racing Game
+      active: true
       octicon: octicon-dashboard
       technologies: C#, Unity
       description: 3D racing game featuring 3 race tracks, controller support and high score board. The game uses art assets from the Unity Asset Store.
@@ -21,6 +22,7 @@ projects:
           thumb: racing5_thumb.jpg
 
     - title: Shooting Gallery
+      active: true
       octicon: octicon-milestone
       technologies: C#, Unity
       description: 3D first person shooter. Players have to shoot targets when they pop up to score points. The player can choose from 4 different weapons. Weapon accuracy depends on the player's stance, their movement speed and the time since they last shot. The game uses art assets from the Unity Asset Store.
@@ -45,6 +47,7 @@ projects:
           thumb: gallery6_thumb.png
 
     - title: Zombie Shooter
+      active: true
       octicon: octicon-organization
       technologies: C#, Unity
       description: 3D first person survival game. The player has to collect 5 fuel cans to refuel the boat in order to escape the island. The player can collect weapons, health pickups and food to fend off the wandering zombies. The game uses art assets from the Unity Asset Store.
@@ -81,6 +84,7 @@ projects:
           thumb: ZombieShooter10_thumb.png
 
     - title: Stencil Creator
+      active: true
       octicon: octicon-pencil
       technologies: C#, WPF
       description: Stencil Creator is an application for creating stencil masks quickly. These masks are used for texturing 3d models in a program such as <a href="https://www.allegorithmic.com">Substance Painter</a>.
@@ -102,6 +106,7 @@ projects:
           thumb: StencilCreator5_thumb.png
 
     - title: Paintmanager Android App
+      active: true
       octicon: octicon-device-mobile
       technologies: Java, Android
       github: https://github.com/sean-h/paintmanager-androidstudio
@@ -115,12 +120,14 @@ projects:
           thumb: paintmanager-android-2-thumb.png 
 
     - title: Paintmanager REST API
+      active: true
       octicon: octicon-paintcan
       technologies: Ruby, Sinatra
       github: https://github.com/sean-h/paintmanager-api
       description: REST API to handle database interaction for the Paintmanager App and website.
 
     - title: Paintmanager Website
+      active: true
       octicon: octicon-browser
       technologies: JavaScript, Angular.js, Bootstrap
       github: https://github.com/sean-h/paintmanager-api/tree/master/public
@@ -137,12 +144,14 @@ projects:
           thumb: paint-status-thumb.png
 
     - title: Bookmarket
+      active: true
       octicon: octicon-book
       technologies: Ruby, Sinatra
       github: https://github.com/cs4431/database
       description: REST API for an online portal to allow university students to buy and sell used textbooks.
 
     - title: JavaScript Canvas Experiments
+      active: true
       octicon: octicon-beaker
       technologies: JavaScript
       demo: /js-experiments
