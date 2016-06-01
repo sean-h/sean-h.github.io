@@ -75,3 +75,11 @@ h1 {
 .project-top-bar {
   margin-top: 5px;
 }
+
+.project h5 {
+  font-weight: bold;
+}
+
+.project .feature {
+  margin-left: 5px;
+}
