@@ -1,4 +1,49 @@
 projects:
+    - title: Space Shooter
+      active: true
+      octicon: octicon-dashboard
+      technologies: C#, Unity
+      description: 3D space shooter. The game uses art assets from the Unity Asset Store.
+      features:
+        - 3 levels with various objectives in each level
+        - Friendly and enemy AI ships
+        - Seeker missiles that intercept enemy ships
+        - Capital ship turrets
+      images:
+        - title: Controls presented during the first level
+          full: spaceshooter/SpaceShooter1.png
+          thumb: spaceshooter/SpaceShooter1_thumb.png
+        - title: Firing a missile
+          full: spaceshooter/SpaceShooter2.png
+          thumb: spaceshooter/SpaceShooter2_thumb.png
+        - title: Leading a target
+          full: spaceshooter/SpaceShooter3.png
+          thumb: spaceshooter/SpaceShooter3_thumb.png
+        - title: Damaged enemy ship
+          full: spaceshooter/SpaceShooter4.png
+          thumb: spaceshooter/SpaceShooter4_thumb.png
+        - title: Exploding ship
+          full: spaceshooter/SpaceShooter5.png
+          thumb: spaceshooter/SpaceShooter5_thumb.png
+        - title: Attacking an enemy ship
+          full: spaceshooter/SpaceShooter6.png
+          thumb: spaceshooter/SpaceShooter6_thumb.png
+        - title: AI battle
+          full: spaceshooter/SpaceShooter7.png
+          thumb: spaceshooter/SpaceShooter7_thumb.png
+        - title: Large fleet battle
+          full: spaceshooter/SpaceShooter8.png
+          thumb: spaceshooter/SpaceShooter8_thumb.png
+        - title: Capital ship turret firing
+          full: spaceshooter/SpaceShooter9.png
+          thumb: spaceshooter/SpaceShooter9_thumb.png
+        - title: Torpedoes impacting enemy ship
+          full: spaceshooter/SpaceShooter10.png
+          thumb: spaceshooter/SpaceShooter10_thumb.png
+        - title: Large fleet battle
+          full: spaceshooter/SpaceShooter11.png
+          thumb: spaceshooter/SpaceShooter11_thumb.png
+
     - title: Racing Game
       active: true
       octicon: octicon-dashboard
