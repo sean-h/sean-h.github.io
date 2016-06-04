@@ -1,7 +1,7 @@
 projects:
     - title: Space Shooter
       active: true
-      octicon: octicon-dashboard
+      octicon: octicon-rocket
       technologies: C#, Unity
       description: 3D space shooter. The game uses art assets from the Unity Asset Store.
       features:
