@@ -44,6 +44,43 @@ projects:
           full: spaceshooter/SpaceShooter11.png
           thumb: spaceshooter/SpaceShooter11_thumb.png
 
+    - title: Zombie Shooter
+      active: true
+      octicon: octicon-organization
+      technologies: C#, Unity
+      description: 3D first person survival game. The player has to collect 5 fuel cans to refuel the boat in order to escape the island. The player can collect weapons, health pickups and food to fend off the wandering zombies. The game uses art assets from the Unity Asset Store.
+      images:
+        - title: Main menu
+          full: ZombieShooter1.png
+          thumb: ZombieShooter1_thumb.png
+        - title: Fuel cans needed to escape from the island
+          full: ZombieShooter2.png
+          thumb: ZombieShooter2_thumb.png
+        - title: Item pickup
+          full: ZombieShooter3.png
+          thumb: ZombieShooter3_thumb.png
+        - title: Zombies ragdoll when killed
+          full: ZombieShooter4.png
+          thumb: ZombieShooter4_thumb.png
+        - title: Pistol
+          full: ZombieShooter5.png
+          thumb: ZombieShooter5_thumb.png
+        - title: Items can be thrown
+          full: ZombieShooter6.png
+          thumb: ZombieShooter6_thumb.png
+        - title: Screen shows when the player is hit by a zombie
+          full: ZombieShooter7.png
+          thumb: ZombieShooter7_thumb.png
+        - title: The camera zooms out if the player dies showing the surrounding area
+          full: ZombieShooter8.png
+          thumb: ZombieShooter8_thumb.png
+        - title: The camera zooms out if the player dies showing the surrounding area
+          full: ZombieShooter9.png
+          thumb: ZombieShooter9_thumb.png
+        - title: The player leaving the island after collecting all of the fuel cans
+          full: ZombieShooter10.png
+          thumb: ZombieShooter10_thumb.png
+
     - title: Racing Game
       active: true
       octicon: octicon-dashboard
@@ -90,43 +127,6 @@ projects:
         - title: Crouching increases accuracy
           full: gallery6.png
           thumb: gallery6_thumb.png
-
-    - title: Zombie Shooter
-      active: true
-      octicon: octicon-organization
-      technologies: C#, Unity
-      description: 3D first person survival game. The player has to collect 5 fuel cans to refuel the boat in order to escape the island. The player can collect weapons, health pickups and food to fend off the wandering zombies. The game uses art assets from the Unity Asset Store.
-      images:
-        - title: Main menu
-          full: ZombieShooter1.png
-          thumb: ZombieShooter1_thumb.png
-        - title: Fuel cans needed to escape from the island
-          full: ZombieShooter2.png
-          thumb: ZombieShooter2_thumb.png
-        - title: Item pickup
-          full: ZombieShooter3.png
-          thumb: ZombieShooter3_thumb.png
-        - title: Zombies ragdoll when killed
-          full: ZombieShooter4.png
-          thumb: ZombieShooter4_thumb.png
-        - title: Pistol
-          full: ZombieShooter5.png
-          thumb: ZombieShooter5_thumb.png
-        - title: Items can be thrown
-          full: ZombieShooter6.png
-          thumb: ZombieShooter6_thumb.png
-        - title: Screen shows when the player is hit by a zombie
-          full: ZombieShooter7.png
-          thumb: ZombieShooter7_thumb.png
-        - title: The camera zooms out if the player dies showing the surrounding area
-          full: ZombieShooter8.png
-          thumb: ZombieShooter8_thumb.png
-        - title: The camera zooms out if the player dies showing the surrounding area
-          full: ZombieShooter9.png
-          thumb: ZombieShooter9_thumb.png
-        - title: The player leaving the island after collecting all of the fuel cans
-          full: ZombieShooter10.png
-          thumb: ZombieShooter10_thumb.png
 
     - title: Stencil Creator
       active: true
