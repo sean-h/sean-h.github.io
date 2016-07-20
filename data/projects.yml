@@ -43,6 +43,13 @@ projects:
         - title: Large fleet battle
           full: spaceshooter/SpaceShooter11.png
           thumb: spaceshooter/SpaceShooter11_thumb.png
+      videos:
+        - video: spaceshooter/space_shooter_vid1.webm
+          thumb: spaceshooter/space_shooter_vid1_thumb.jpeg
+        - video: spaceshooter/space_shooter_vid2.webm
+          thumb: spaceshooter/space_shooter_vid2_thumb.jpeg
+        - video: spaceshooter/space_shooter_vid3.webm
+          thumb: spaceshooter/space_shooter_vid3_thumb.jpeg
 
     - title: Zombie Shooter
       active: true
@@ -80,6 +87,17 @@ projects:
         - title: The player leaving the island after collecting all of the fuel cans
           full: ZombieShooter10.png
           thumb: ZombieShooter10_thumb.png
+      videos:
+        - video: zombieshooter/zombie_shooter_vid1.webm
+          thumb: zombieshooter/zombie_shooter_vid1_thumb.jpeg
+        - video: zombieshooter/zombie_shooter_vid2.webm
+          thumb: zombieshooter/zombie_shooter_vid2_thumb.jpeg
+        - video: zombieshooter/zombie_shooter_vid3.webm
+          thumb: zombieshooter/zombie_shooter_vid3_thumb.jpeg
+        - video: zombieshooter/zombie_shooter_vid4.webm
+          thumb: zombieshooter/zombie_shooter_vid4_thumb.jpeg
+        - video: zombieshooter/zombie_shooter_vid5.webm
+          thumb: zombieshooter/zombie_shooter_vid5_thumb.jpeg
 
     - title: Racing Game
       active: true
@@ -102,6 +120,11 @@ projects:
         - title: New High Score Menu
           full: racing5.jpg
           thumb: racing5_thumb.jpg
+      videos:
+        - video: racing/racing_vid1.webm
+          thumb: racing/racing_vid1_thumb.jpeg
+        - video: racing/racing_vid2.webm
+          thumb: racing/racing_vid2_thumb.jpeg
 
     - title: Shooting Gallery
       active: true
@@ -127,6 +150,15 @@ projects:
         - title: Crouching increases accuracy
           full: gallery6.png
           thumb: gallery6_thumb.png
+      videos:
+        - video: shootinggallery/shooting_gallery_vid1.webm
+          thumb: shootinggallery/shooting_gallery_vid1_thumb.jpeg
+        - video: shootinggallery/shooting_gallery_vid2.webm
+          thumb: shootinggallery/shooting_gallery_vid2_thumb.jpeg
+        - video: shootinggallery/shooting_gallery_vid3.webm
+          thumb: shootinggallery/shooting_gallery_vid3_thumb.jpeg
+        - video: shootinggallery/shooting_gallery_vid4.webm
+          thumb: shootinggallery/shooting_gallery_vid4_thumb.jpeg
 
     - title: Stencil Creator
       active: true
