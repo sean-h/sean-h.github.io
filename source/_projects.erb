@@ -2,7 +2,7 @@
   <h2><span class="octicon octicon-tools"></span>Projects</h2>
   <% data.projects.projects.each do |project| %>
     <% if project.active == true %>
-      <div class="project">
+      <div class="project col-sm-12">
         <div class="row project-top-bar">
             <div class="col-sm-1 project-image">
               <% unless project.octicon.nil? %>
@@ -10,7 +10,7 @@
               <% end %>
             </div>
 
-          <div class="col-sm-8">
+          <div class="col-sm-10">
             <div class="row">
               <div class="col-sm-11 project-title">
                 <% if project.demo.nil? %>
