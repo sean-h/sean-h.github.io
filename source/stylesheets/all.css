@@ -1,33 +1,39 @@
 @charset "utf-8";
 
 body {
-  background: #d4d4d4 url("../images/background.png");
+  background: #E7E5DF !important;
   font-family: sans-serif;
 }
 
 h1 {
-  color: rgba(0, 0, 0, .3);
   font-weight: bold;
   font-size: 32px;
   letter-spacing: -1px;
-  text-transform: uppercase;
   text-shadow: 0 1px 0 rgba(255, 255, 255, .5);
-  padding: 10px 0 10px;
   margin: 0;
+}
+
+h2 {
+  color: #2F6690 !important;
 }
 
 .mailto {
   display: block;
 }
 
-.github {
+.github-link {
   display: block;
+  text-align: right;
 }
 
 .header {
   text-align: center;
-  border-bottom: #000 1px solid;
-  padding-bottom: 15px;
+  padding: 0px 0 15px;
+  margin-top: 15px;
+}
+
+.header .octicon {
+  padding-right: 5px !important;
 }
 
 .education {
@@ -35,6 +41,8 @@ h1 {
 }
 
 .education ul {
+  background: #D3D0CB;
+  border-radius: 25px;
   list-style-type: none;
   padding: 0;
 }
@@ -49,8 +57,10 @@ h1 {
 }
 
 .project {
-  border-top: #000 1px solid;
+  background: #D3D0CB;
+  border-radius: 25px;
   margin-bottom: 10px;
+  padding: 10px;
 }
 
 .project-title {
@@ -82,6 +92,20 @@ h1 {
 
 .project .feature {
   margin-left: 5px;
+}
+
+.project img {
+  border-radius: 5px;
+  margin: 2px;
+  opacity: 1.0;
+}
+
+.media a {
+  text-decoration: none !important;
+}
+
+.project img:hover {
+  opacity: 0.3;
 }
 
 .videos {

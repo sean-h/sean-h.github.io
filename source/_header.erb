@@ -1,13 +1,14 @@
 <div class="header container">
   <h1>Sean Humeniuk</h1>
+  <h3>Software Developer</h3>
   <% unless data.contact.email.nil? %>
     <a class="mailto" href="mailto:<%= data.contact.email %>">
-      <span class="octicon octicon-mail"><%= data.contact.email %></span>
+      <span class="octicon octicon-mail"> <%= data.contact.email %></span>
     </a>
   <% end %>
   <% unless data.contact.github.nil? %>
     <a class="github" href="http://github.com/<%= data.contact.github %>">
-      <span class="octicon octicon-mark-github"><%= data.contact.github %></span>
+      <span class="octicon octicon-mark-github"> <%= data.contact.github %></span>
     </a>
   <% end %>
 </div>
