@@ -3,12 +3,12 @@ projects:
       active: true
       octicon: octicon-rocket
       technologies: C#, Unity
-      description: 3D space shooter. The game uses art assets from the Unity Asset Store.
+      description: Single player 3D space shooter. The player controls a spaceship and must complete various objectives in order to complete each level. The player is equipped with plasma cannons, missles and allies to defeat enemy spaceships.<em>The game uses art assets from the Unity Asset Store.</em>
       features:
-        - 3 levels with various objectives in each level
-        - Friendly and enemy AI ships
-        - Seeker missiles that intercept enemy ships
-        - Capital ship turrets
+        - 3 levels each with different objectives.
+        - Friendly and enemy AI ship behaviour using Finite State Machines.
+        - Seeker missiles that lock onto and intercept enemy ships.
+        - Capital ship turrets that lock onto targets and fire independently of ship movement.
       images:
         - title: Controls presented during the first level
           full: spaceshooter/SpaceShooter1.png
@@ -55,7 +55,12 @@ projects:
       active: true
       octicon: octicon-organization
       technologies: C#, Unity
-      description: 3D first person survival game. The player has to collect 5 fuel cans to refuel the boat in order to escape the island. The player can collect weapons, health pickups and food to fend off the wandering zombies. The game uses art assets from the Unity Asset Store.
+      description: 3D first person survival game. The player has to collect 5 fuel cans to refuel a boat in order to escape the island. The player can collect weapons, health pickups and food to fend off the wandering zombies. <em>The game uses art assets from the Unity Asset Store.</em>
+      features:
+        - "3 distinct ranged weapons make up the player's arsenal: a pistol, rifle and shotgun. Ammo is hard to find on the island so these must be used sparingly."
+        - An assortment of melee weapons can be found on the island. These can also be thrown at enemies as improvised ranged weapons.
+        - Pies, chocolate bars and other snacks may be collected to heal the player in case they get bitten by a zombie.
+        - Items and zombie locations are randomized each time the game is played.
       images:
         - title: Main menu
           full: ZombieShooter1.png
@@ -103,7 +108,7 @@ projects:
       active: true
       octicon: octicon-dashboard
       technologies: C#, Unity
-      description: 3D racing game featuring 3 race tracks, controller support and high score board. The game uses art assets from the Unity Asset Store.
+      description: 3D racing game featuring 3 race tracks, controller support and high score board. <em>The game uses art assets from the Unity Asset Store.</em>
       images:
         - title: Main Menu
           full: racing1.jpg
@@ -130,7 +135,7 @@ projects:
       active: true
       octicon: octicon-milestone
       technologies: C#, Unity
-      description: 3D first person shooter. Players have to shoot targets when they pop up to score points. The player can choose from 4 different weapons. Weapon accuracy depends on the player's stance, their movement speed and the time since they last shot. The game uses art assets from the Unity Asset Store.
+      description: 3D first person shooter. Players have to shoot targets when they pop up to score points. The player can choose from 4 different weapons. Weapon accuracy depends on the player's stance, their movement speed and the weapon's recoil. <em>The game uses art assets from the Unity Asset Store.</em>
       images:
         - title: Target range before targets start popping up
           full: gallery1.png
