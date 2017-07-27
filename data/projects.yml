@@ -104,6 +104,37 @@ projects:
         - video: zombieshooter/zombie_shooter_vid5.webm
           thumb: zombieshooter/zombie_shooter_vid5_thumb.jpeg
 
+    - title: Level Editor
+      active: true
+      octicon: octicon-home
+      technologies: Python, Blender
+      description: Level editor addon for <a href="https://blender.org">Blender</a>.
+      features:
+        - Place brushes to define rooms and automatically connect them when level is built.
+        - Load Unity materials into Blender and assign them to level surfaces.
+        - Import Unity prefabs into Blender to place in the level.
+        - Automatic stair generation that creates clip brushes for smoother stair collision.
+        - Assign triggers and trigger targets for player interaction.
+      images:
+        - title: Brushes before the level has been built
+          full: leveleditor/SectorBuild_1.png
+          thumb: leveleditor/SectorBuild_1_thumb.png
+        - title: Brushes after the level has been built
+          full: leveleditor/SectorBuild_2.png
+          thumb: leveleditor/SectorBuild_2_thumb.png
+        - title: Assigning materials to surfaces
+          full: leveleditor/MaterialPainter.png
+          thumb: leveleditor/MaterialPainter_thumb.png
+        - title: Builing stairs with multiple sections and the underlying collision geometry
+          full: leveleditor/StairBuilder.png
+          thumb: leveleditor/StairBuilder_thumb.png
+        - title: Placing a prefab door
+          full: leveleditor/Prefabs.png
+          thumb: leveleditor/Prefabs_thumb.png
+        - title: Trigger collider that activates a door animation
+          full: leveleditor/Triggers.png
+          thumb: leveleditor/Triggers_thumb.png
+
     - title: Racing Game
       active: true
       octicon: octicon-dashboard
