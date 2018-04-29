@@ -1,8 +1,11 @@
 projects:
-    - title: Space Shooter
+    - name: Space Shooter
+      url: space_shooter
       active: true
       octicon: octicon-rocket
-      technologies: C#, Unity
+      technologies:
+        - C#
+        - Unity
       description: Single player 3D space shooter. The player controls a spaceship and must complete various objectives in order to complete each level. The player is equipped with plasma cannons, missles and allies to defeat enemy spaceships.<em>The game uses art assets from the Unity Asset Store.</em>
       features:
         - 3 levels each with different objectives.
@@ -51,10 +54,13 @@ projects:
         - video: spaceshooter/space_shooter_vid3.webm
           thumb: spaceshooter/space_shooter_vid3_thumb.jpeg
 
-    - title: Zombie Shooter
+    - name: Zombie Shooter
+      url: zombie_shooter
       active: true
       octicon: octicon-organization
-      technologies: C#, Unity
+      technologies:
+        - C#
+        - Unity
       description: 3D first person survival game. The player has to collect 5 fuel cans to refuel a boat in order to escape the island. The player can collect weapons, health pickups and food to fend off the wandering zombies. <em>The game uses art assets from the Unity Asset Store.</em>
       features:
         - "3 distinct ranged weapons make up the player's arsenal: a pistol, rifle and shotgun. Ammo is hard to find on the island so these must be used sparingly."
@@ -104,10 +110,13 @@ projects:
         - video: zombieshooter/zombie_shooter_vid5.webm
           thumb: zombieshooter/zombie_shooter_vid5_thumb.jpeg
 
-    - title: Level Editor
+    - name: Level Editor Blender Plugin
+      url: level_editor_plugin
       active: true
       octicon: octicon-home
-      technologies: Python, Blender
+      technologies:
+        - Python
+        - Blender
       description: Level editor addon for <a href="https://blender.org">Blender</a>.
       features:
         - Place brushes to define rooms and automatically connect them when level is built.
@@ -135,10 +144,13 @@ projects:
           full: leveleditor/Triggers.png
           thumb: leveleditor/Triggers_thumb.png
 
-    - title: Racing Game
+    - name: Racing Game
+      url: racing_game
       active: true
       octicon: octicon-dashboard
-      technologies: C#, Unity
+      technologies:
+        - C#
+        - Unity
       description: 3D racing game featuring 3 race tracks, controller support and high score board. <em>The game uses art assets from the Unity Asset Store.</em>
       images:
         - title: Main Menu
@@ -162,10 +174,13 @@ projects:
         - video: racing/racing_vid2.webm
           thumb: racing/racing_vid2_thumb.jpeg
 
-    - title: Shooting Gallery
+    - name: Shooting Gallery
+      url: shooting_gallery
       active: true
       octicon: octicon-milestone
-      technologies: C#, Unity
+      technologies:
+        - C#
+        - Unity
       description: 3D first person shooter. Players have to shoot targets when they pop up to score points. The player can choose from 4 different weapons. Weapon accuracy depends on the player's stance, their movement speed and the weapon's recoil. <em>The game uses art assets from the Unity Asset Store.</em>
       images:
         - title: Target range before targets start popping up
@@ -196,10 +211,13 @@ projects:
         - video: shootinggallery/shooting_gallery_vid4.webm
           thumb: shootinggallery/shooting_gallery_vid4_thumb.jpeg
 
-    - title: Stencil Creator
+    - name: Stencil Creator
+      url: stencil_creator
       active: true
       octicon: octicon-pencil
-      technologies: C#, WPF
+      technologies:
+        - C#
+        - WPF
       description: Stencil Creator is an application for creating stencil masks quickly. These masks are used for texturing 3d models in a program such as <a href="https://www.allegorithmic.com">Substance Painter</a>.
       images:
         - title: View after opening the program
@@ -218,8 +236,9 @@ projects:
           full: StencilCreator5.png
           thumb: StencilCreator5_thumb.png
 
-    - title: Paintmanager Android App
-      active: true
+    - name: Paintmanager Android App
+      url: paintmanager_android
+      active: false
       octicon: octicon-device-mobile
       technologies: Java, Android
       github: https://github.com/sean-h/paintmanager-androidstudio
@@ -232,17 +251,24 @@ projects:
           full: paintmanager-android-2.png
           thumb: paintmanager-android-2-thumb.png 
 
-    - title: Paintmanager REST API
-      active: true
+    - name: Paintmanager REST API
+      url: paintmanager_api
+      active: false
       octicon: octicon-paintcan
-      technologies: Ruby, Sinatra
+      technologies:
+        - Ruby
+        - Sinatra
       github: https://github.com/sean-h/paintmanager-api
       description: REST API to handle database interaction for the Paintmanager App and website.
 
-    - title: Paintmanager Website
-      active: true
+    - name: Paintmanager Website
+      url: paintmanager_web
+      active: false
       octicon: octicon-browser
-      technologies: JavaScript, Angular.js, Bootstrap
+      technologies:
+        - JavaScript
+        - Angular.js
+        - Bootstrap
       github: https://github.com/sean-h/paintmanager-api/tree/master/public
       description: Front-end web app for Paintmanager.
       images:
@@ -256,24 +282,12 @@ projects:
           full: paint-status.png
           thumb: paint-status-thumb.png
 
-    - title: Bookmarket
-      active: true
+    - name: Bookmarket
+      url: bookmarket
+      active: false
       octicon: octicon-book
-      technologies: Ruby, Sinatra
+      technologies:
+        - Ruby
+        - Sinatra
       github: https://github.com/cs4431/database
       description: REST API for an online portal to allow university students to buy and sell used textbooks.
-
-    - title: JavaScript Canvas Experiments
-      active: true
-      octicon: octicon-beaker
-      technologies: JavaScript
-      demo: /js-experiments
-      github: https://github.com/sean-h/sean-h.github.io/tree/master/js-experiments/js
-      description: A collection of JavaScript canvas experiments.
-      images:
-        - title: Dragon Curve Fractal
-          full: dragon.png
-          thumb: dragon-thumb.png
-        - title: Chaos Game Sierpinski Triangle
-          full: triangle.png
-          thumb: triangle-thumb.png

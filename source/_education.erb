@@ -1,9 +1,9 @@
-<div class="education container">
-  <h2><span class="octicon octicon-mortar-board"></span>Education</h2>
-  <% data.education.listings.each do |ed| %>
-    <ul>
-      <li><strong><%= ed.school %></strong></li>
-      <li><%= ed.degree %></li>
-    </ul>
-  <% end %>
+<div class="container section">
+  <h2>Education</h2>
+  <div class="item">
+    <% data.education.listings.each do |ed| %>
+      <h3><%= ed.school %></h3>
+      <h3><%= ed.degree %></h3>
+    <% end %>
+  </div>
 </div>

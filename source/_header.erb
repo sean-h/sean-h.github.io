@@ -1,14 +1,23 @@
-<div class="header container">
-  <h1>Sean Humeniuk</h1>
-  <h3>Software Developer</h3>
-  <% unless data.contact.email.nil? %>
-    <a class="mailto" href="mailto:<%= data.contact.email %>">
-      <span class="octicon octicon-mail"> <%= data.contact.email %></span>
+<div class="header">
+  <div class="container">
+    <a href="/">
+      <div class="name">
+        <h1>Sean Humeniuk</h1>
+        <h3>Software Developer</h3>
+      </div>
     </a>
-  <% end %>
-  <% unless data.contact.github.nil? %>
-    <a class="github" href="http://github.com/<%= data.contact.github %>">
-      <span class="octicon octicon-mark-github"> <%= data.contact.github %></span>
-    </a>
-  <% end %>
+
+    <div class="contact">
+      <% unless data.contact.email.nil? %>
+        <a class="mailto" href="mailto:<%= data.contact.email %>">
+          <%= data.contact.email %>
+        </a>
+      <% end %>
+      <% unless data.contact.github.nil? %>
+        <a class="github" href="http://github.com/<%= data.contact.github %>">
+          GitHub: <%= data.contact.github %>
+        </a>
+      <% end %>
+    </div>
+  </div>
 </div>

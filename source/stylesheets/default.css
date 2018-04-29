@@ -1,0 +1,160 @@
+.header {
+    width: 100%;
+    background-color: #EF8354;
+    padding: 0px 0px 0px 0px;
+    height: 80px;
+    top: 0px;
+    position: absolute;
+}
+
+.header .name {
+    width: 50%;
+    float: left;
+    color: #2D3142;
+    border-color: #2D3142;
+}
+
+.header .name:hover {
+    width: 50%;
+    float: left;
+    color: #FFFFFF;
+    transition-duration: 0.25s;
+    border-color: #FFFFFF;
+}
+
+.header h1 {
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    
+    margin-top: 5px;
+    margin-bottom: 0px;
+    border-width: 0px 0px 2px 0px;
+    border-style: solid;
+}
+
+.header h3 {
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.header .contact {
+    font-family: 'Merriweather', serif;
+    width: 50%;
+    float: left;
+    margin-top: 15px;
+    text-align: right;
+}
+
+.header .contact a {
+    color: #2D3142;
+    font-size: 18px;
+}
+
+.header .contact a:hover {
+    color: #FFFFFF;
+    transition-duration: 0.25s;
+}
+
+.header .contact a:after {
+    display: block;
+    content: "\A";
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #2D3142;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.content {
+    margin-top: 100px;
+}
+
+.section .item {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: #BFC0C0;
+    border-radius: 5px;
+}
+
+.section a {
+    text-decoration: none;
+    color: #2D3142;
+}
+
+.section .item h3 {
+    margin-top: 2px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+}
+
+.section h2 {
+    color: #EF8354;
+    border-bottom-color: #EF8354;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    margin-bottom: 5px;
+}
+
+.project {
+    display: flex;
+}
+
+.project:hover {
+    transition-duration: 0.25s;
+    background-color: #EF8354;
+}
+
+.project-image {
+    margin: 5px;
+}
+
+.project-content {
+    margin-left: 10px;
+}
+
+.project-name {
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 24px;
+    margin: 5px;
+}
+
+.project-tech {
+    display: flex;
+}
+
+.project-tech-item {
+    font-family: 'Roboto', sans-serif;
+    background-color: #4F5D75;
+    color: #FFFFFF;
+    padding: 8px;
+    margin-right: 2px;
+    font-size: 14px;
+}
+
+.project-description {
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    margin-top: 10px;
+}
+
+.project-features li {
+    font-family: 'Roboto', sans-serif;
+}
+
+.project-images a img:hover {
+    transition-duration: 0.25s;
+    opacity: 0.5;
+}
+
+.project-videos a img:hover {
+    transition-duration: 1s;
+    transform: scale(1.2);
+}

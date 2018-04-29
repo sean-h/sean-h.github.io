@@ -1,0 +1,49 @@
+<% content_for(:title, project.name + " - Sean Humeniuk") %>
+
+<div class="container section">
+    <div class="item">
+        <div class="project-name">
+            <%= project.name %>
+        </div>
+
+        <div class="project-tech">
+            <% project.technologies.each do |tech| %>
+            <div class="project-tech-item">
+                <%= tech %>
+            </div>
+            <% end %>
+        </div>
+
+        <div class="project-description">
+            <%= project.description %>
+        </div>
+
+        <% unless project.features.nil? %>
+        <ul class="project-features">
+            <% project.features.each do |feature| %>
+                <li> <%= feature %> </li>
+            <% end %>
+        </ul>
+        <% end %>
+
+        <% unless project.images.nil? %>
+            <div class="project-images">
+                <% project.images.each do |image| %>
+                    <a href="/images/<%= image.full %>">
+                        <img src="/images/<%= image.thumb %>"/>
+                    </a>
+                <% end %>
+            </div>
+        <% end %>
+
+        <% unless project.videos.nil? %>
+            <div class="project-videos">
+                <% project.videos.each do |video| %>
+                    <a href="/videos/<%= video.video %>">
+                        <img src="/images/<%= video.thumb %>"/>
+                    </a>
+                <% end %>
+            </div>
+        <% end %>
+    </div>
+</div>
