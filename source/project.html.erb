@@ -26,22 +26,32 @@
         </ul>
         <% end %>
 
-        <% unless project.images.nil? %>
+        <% unless project.images.nil? && project.videos.nil? %>
             <div class="project-images">
-                <% project.images.each do |image| %>
-                    <a href="/images/<%= image.full %>">
-                        <img src="/images/<%= image.thumb %>"/>
-                    </a>
-                <% end %>
-            </div>
-        <% end %>
 
-        <% unless project.videos.nil? %>
-            <div class="project-videos">
-                <% project.videos.each do |video| %>
-                    <a href="/videos/<%= video.video %>">
-                        <img src="/images/<%= video.thumb %>"/>
+
+                <% project.images.each do |image| %>
+                    
+                    <a href="/images/<%= image.full %>">
+                        <div class="project-image">
+                            <img src="/images/<%= image.thumb %>"/>
+                            <div class="project-image-text"><%= image.title %></div>
+                        </div>
                     </a>
+                        
+                <% end %>
+
+                <% unless project.videos.nil? %>
+                    <% project.videos.each do |video| %>
+
+                        <a href="/videos/<%= video.video %>">
+                            <div class="project-video">
+                                <img src="/images/<%= video.thumb %>"/>
+                                <div class="project-video-icon"><img src="/images/play.png"/></div>
+                            </div>
+                        </a>
+
+                    <% end %>
                 <% end %>
             </div>
         <% end %>

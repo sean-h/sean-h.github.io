@@ -42,13 +42,18 @@
     font-family: 'Merriweather', serif;
     width: 50%;
     float: left;
-    margin-top: 15px;
-    text-align: right;
+    margin-top: 12px;
+    text-align: center;
 }
 
 .header .contact a {
     color: #2D3142;
     font-size: 18px;
+    text-decoration: none;
+}
+
+.contact-item {
+    margin-top: 5px;
 }
 
 .header .contact a:hover {
@@ -76,6 +81,21 @@ body {
     margin-top: 100px;
 }
 
+.education {
+    display: flex;
+    align-items: center;
+}
+
+.education-info {
+    margin-left: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.education-school {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
 .section .item {
     margin-top: 0px;
     margin-bottom: 10px;
@@ -86,7 +106,7 @@ body {
 
 .section a {
     text-decoration: none;
-    color: #2D3142;
+    color: #000000;
 }
 
 .section .item h3 {
@@ -97,6 +117,8 @@ body {
 
 .section h2 {
     color: #EF8354;
+    font-family: 'Merriweather', serif;
+    letter-spacing: 1px;
     border-bottom-color: #EF8354;
     border-bottom-width: 2px;
     border-bottom-style: solid;
@@ -110,10 +132,6 @@ body {
 .project:hover {
     transition-duration: 0.25s;
     background-color: #EF8354;
-}
-
-.project-image {
-    margin: 5px;
 }
 
 .project-content {
@@ -149,12 +167,74 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.project-images a img:hover {
-    transition-duration: 0.25s;
-    opacity: 0.5;
+.project-images {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: -5px;
+    width: 960px;
 }
 
-.project-videos a img:hover {
-    transition-duration: 1s;
-    transform: scale(1.2);
+.project-images a {
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.project-image {
+    text-align: center;
+    position: relative;
+    margin: 0px;
+}
+
+.project-image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.project-image:hover img {
+    transition-duration: 0.25s;
+    opacity: 0.2;
+}
+
+.project-image:hover .project-image-text {
+    display: block;
+}
+
+.project-videos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: -5px;
+    width: 960px;
+}
+
+.project-video {
+    text-align: center;
+    position: relative;
+    margin: 0px;
+}
+
+.project-video:hover img {
+    transition-duration: 0.25s;
+    opacity: 0.2;
+}
+
+.project-video:hover .project-video-icon img {
+    transition-duration: 0.25s;
+    opacity: 1.0;
+}
+
+.project-video-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 128px;
+    
 }

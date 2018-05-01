@@ -1,4 +1,30 @@
 projects:
+    - name: Block Level Editor
+      url: block_editor
+      active: true
+      technologies:
+        - C++
+        - OpenGL
+      description: Block Level Editor
+      features:
+        - Feature 1
+        - Feature 2
+        - Feature 3
+        - Feature 4
+      images:
+        - title: Image 1
+          full: blockeditor/BlockEditor1.png
+          thumb: blockeditor/BlockEditor1_thumb.png
+        - title: Image 2
+          full: blockeditor/BlockEditor2.png
+          thumb: blockeditor/BlockEditor2_thumb.png
+        - title: Image 3
+          full: blockeditor/BlockEditor3.png
+          thumb: blockeditor/BlockEditor3_thumb.png
+        - title: Image 4
+          full: blockeditor/BlockEditor4.png
+          thumb: blockeditor/BlockEditor4_thumb.png
+
     - name: Space Shooter
       url: space_shooter
       active: true
@@ -48,11 +74,11 @@ projects:
           thumb: spaceshooter/SpaceShooter11_thumb.png
       videos:
         - video: spaceshooter/space_shooter_vid1.webm
-          thumb: spaceshooter/space_shooter_vid1_thumb.jpeg
+          thumb: spaceshooter/space_shooter_vid1_thumb.png
         - video: spaceshooter/space_shooter_vid2.webm
-          thumb: spaceshooter/space_shooter_vid2_thumb.jpeg
+          thumb: spaceshooter/space_shooter_vid2_thumb.png
         - video: spaceshooter/space_shooter_vid3.webm
-          thumb: spaceshooter/space_shooter_vid3_thumb.jpeg
+          thumb: spaceshooter/space_shooter_vid3_thumb.png
 
     - name: Zombie Shooter
       url: zombie_shooter
@@ -69,46 +95,46 @@ projects:
         - Items and zombie locations are randomized each time the game is played.
       images:
         - title: Main menu
-          full: ZombieShooter1.png
-          thumb: ZombieShooter1_thumb.png
+          full: zombieshooter/ZombieShooter1.png
+          thumb: zombieshooter/ZombieShooter1_thumb.png
         - title: Fuel cans needed to escape from the island
-          full: ZombieShooter2.png
-          thumb: ZombieShooter2_thumb.png
+          full: zombieshooter/ZombieShooter2.png
+          thumb: zombieshooter/ZombieShooter2_thumb.png
         - title: Item pickup
           full: ZombieShooter3.png
-          thumb: ZombieShooter3_thumb.png
+          thumb: zombieshooter/ZombieShooter3_thumb.png
         - title: Zombies ragdoll when killed
-          full: ZombieShooter4.png
-          thumb: ZombieShooter4_thumb.png
+          full: zombieshooter/ZombieShooter4.png
+          thumb: zombieshooter/ZombieShooter4_thumb.png
         - title: Pistol
-          full: ZombieShooter5.png
-          thumb: ZombieShooter5_thumb.png
+          full: zombieshooter/ZombieShooter5.png
+          thumb: zombieshooter/ZombieShooter5_thumb.png
         - title: Items can be thrown
-          full: ZombieShooter6.png
-          thumb: ZombieShooter6_thumb.png
+          full: zombieshooter/ZombieShooter6.png
+          thumb: zombieshooter/ZombieShooter6_thumb.png
         - title: Screen shows when the player is hit by a zombie
-          full: ZombieShooter7.png
-          thumb: ZombieShooter7_thumb.png
+          full: zombieshooter/ZombieShooter7.png
+          thumb: zombieshooter/ZombieShooter7_thumb.png
         - title: The camera zooms out if the player dies showing the surrounding area
-          full: ZombieShooter8.png
-          thumb: ZombieShooter8_thumb.png
+          full: zombieshooter/ZombieShooter8.png
+          thumb: zombieshooter/ZombieShooter8_thumb.png
         - title: The camera zooms out if the player dies showing the surrounding area
-          full: ZombieShooter9.png
-          thumb: ZombieShooter9_thumb.png
+          full: zombieshooter/ZombieShooter9.png
+          thumb: zombieshooter/ZombieShooter9_thumb.png
         - title: The player leaving the island after collecting all of the fuel cans
-          full: ZombieShooter10.png
-          thumb: ZombieShooter10_thumb.png
+          full: zombieshooter/ZombieShooter10.png
+          thumb: zombieshooter/ZombieShooter10_thumb.png
       videos:
         - video: zombieshooter/zombie_shooter_vid1.webm
-          thumb: zombieshooter/zombie_shooter_vid1_thumb.jpeg
+          thumb: zombieshooter/zombie_shooter_vid1_thumb.png
         - video: zombieshooter/zombie_shooter_vid2.webm
-          thumb: zombieshooter/zombie_shooter_vid2_thumb.jpeg
+          thumb: zombieshooter/zombie_shooter_vid2_thumb.png
         - video: zombieshooter/zombie_shooter_vid3.webm
-          thumb: zombieshooter/zombie_shooter_vid3_thumb.jpeg
+          thumb: zombieshooter/zombie_shooter_vid3_thumb.png
         - video: zombieshooter/zombie_shooter_vid4.webm
-          thumb: zombieshooter/zombie_shooter_vid4_thumb.jpeg
+          thumb: zombieshooter/zombie_shooter_vid4_thumb.png
         - video: zombieshooter/zombie_shooter_vid5.webm
-          thumb: zombieshooter/zombie_shooter_vid5_thumb.jpeg
+          thumb: zombieshooter/zombie_shooter_vid5_thumb.png
 
     - name: Level Editor Blender Plugin
       url: level_editor_plugin
@@ -154,25 +180,25 @@ projects:
       description: 3D racing game featuring 3 race tracks, controller support and high score board. <em>The game uses art assets from the Unity Asset Store.</em>
       images:
         - title: Main Menu
-          full: racing1.jpg
-          thumb: racing1_thumb.jpg
+          full: racing/racing1.jpg
+          thumb: racing/racing1_thumb.jpg
         - title: Track Selection Screen
-          full: racing2.jpg
-          thumb: racing2_thumb.jpg
+          full: racing/racing2.jpg
+          thumb: racing/racing2_thumb.jpg
         - title:
-          full: racing3.jpg
-          thumb: racing3_thumb.jpg
+          full: racing/racing3.jpg
+          thumb: racing/racing3_thumb.jpg
         - title:
-          full: racing4.jpg
-          thumb: racing4_thumb.jpg
+          full: racing/racing4.jpg
+          thumb: racing/racing4_thumb.jpg
         - title: New High Score Menu
-          full: racing5.jpg
-          thumb: racing5_thumb.jpg
+          full: racing/racing5.jpg
+          thumb: racing/racing5_thumb.jpg
       videos:
         - video: racing/racing_vid1.webm
-          thumb: racing/racing_vid1_thumb.jpeg
+          thumb: racing/racing_vid1_thumb.png
         - video: racing/racing_vid2.webm
-          thumb: racing/racing_vid2_thumb.jpeg
+          thumb: racing/racing_vid2_thumb.png
 
     - name: Shooting Gallery
       url: shooting_gallery
@@ -184,32 +210,32 @@ projects:
       description: 3D first person shooter. Players have to shoot targets when they pop up to score points. The player can choose from 4 different weapons. Weapon accuracy depends on the player's stance, their movement speed and the weapon's recoil. <em>The game uses art assets from the Unity Asset Store.</em>
       images:
         - title: Target range before targets start popping up
-          full: gallery1.png
-          thumb: gallery1_thumb.png
+          full: shootinggallery/gallery1.png
+          thumb: shootinggallery/gallery1_thumb.png
         - title: Moving decreases weapon accuracy
-          full: gallery2.png
-          thumb: gallery2_thumb.png
+          full: shootinggallery/gallery2.png
+          thumb: shootinggallery/gallery2_thumb.png
         - title: Reloading
-          full: gallery3.png
-          thumb: gallery3_thumb.png
+          full: shootinggallery/gallery3.png
+          thumb: shootinggallery/gallery3_thumb.png
         - title: The shotgun fires multiple projectiles in a cone
-          full: gallery4.png
-          thumb: gallery4_thumb.png
+          full: shootinggallery/gallery4.png
+          thumb: shootinggallery/gallery4_thumb.png
         - title: The rifle is able to zoom in
-          full: gallery5.png
-          thumb: gallery5_thumb.png
+          full: shootinggallery/gallery5.png
+          thumb: shootinggallery/gallery5_thumb.png
         - title: Crouching increases accuracy
-          full: gallery6.png
-          thumb: gallery6_thumb.png
+          full: shootinggallery/gallery6.png
+          thumb: shootinggallery/gallery6_thumb.png
       videos:
         - video: shootinggallery/shooting_gallery_vid1.webm
-          thumb: shootinggallery/shooting_gallery_vid1_thumb.jpeg
+          thumb: shootinggallery/gallery_vid1_thumb.png
         - video: shootinggallery/shooting_gallery_vid2.webm
-          thumb: shootinggallery/shooting_gallery_vid2_thumb.jpeg
+          thumb: shootinggallery/gallery_vid2_thumb.png
         - video: shootinggallery/shooting_gallery_vid3.webm
-          thumb: shootinggallery/shooting_gallery_vid3_thumb.jpeg
+          thumb: shootinggallery/gallery_vid3_thumb.png
         - video: shootinggallery/shooting_gallery_vid4.webm
-          thumb: shootinggallery/shooting_gallery_vid4_thumb.jpeg
+          thumb: shootinggallery/gallery_vid4_thumb.png
 
     - name: Stencil Creator
       url: stencil_creator
@@ -221,35 +247,37 @@ projects:
       description: Stencil Creator is an application for creating stencil masks quickly. These masks are used for texturing 3d models in a program such as <a href="https://www.allegorithmic.com">Substance Painter</a>.
       images:
         - title: View after opening the program
-          full: StencilCreator1.png
-          thumb: StencilCreator1_thumb.png
+          full: stencil/StencilCreator1.png
+          thumb: stencil/StencilCreator1_thumb.png
         - title: Filtering by font name; Changing the font size and text output
-          full: StencilCreator2.png
-          thumb: StencilCreator2_thumb.png
+          full: stencil/StencilCreator2.png
+          thumb: stencil/StencilCreator2_thumb.png
         - title: Sample output
-          full: StencilCreator3.png
-          thumb: StencilCreator3_thumb.png
+          full: stencil/StencilCreator3.png
+          thumb: stencil/StencilCreator3_thumb.png
         - title: Applying the stencil to a model
-          full: StencilCreator4.png
-          thumb: StencilCreator4_thumb.png
+          full: stencil/StencilCreator4.png
+          thumb: stencil/StencilCreator4_thumb.png
         - title: The finished result.
-          full: StencilCreator5.png
-          thumb: StencilCreator5_thumb.png
+          full: stencil/StencilCreator5.png
+          thumb: stencil/StencilCreator5_thumb.png
 
     - name: Paintmanager Android App
       url: paintmanager_android
       active: false
       octicon: octicon-device-mobile
-      technologies: Java, Android
+      technologies:
+        - Java
+        - Android
       github: https://github.com/sean-h/paintmanager-androidstudio
       description: Paintmanager is an android app to manage a collection of model paints. The app connects to a custom REST API to sync data between devices.
       images:
         - title: Filtering by Paint Range
-          full: paintmanager-android-1.png
-          thumb: paintmanager-android-1-thumb.png 
+          full: paintmanager_android/paintmanager-android-1.png
+          thumb: paintmanager_android/paintmanager-android-1-thumb.png 
         - title: Status filtering
-          full: paintmanager-android-2.png
-          thumb: paintmanager-android-2-thumb.png 
+          full: paintmanager_android/paintmanager-android-2.png
+          thumb: paintmanager_android/paintmanager-android-2-thumb.png 
 
     - name: Paintmanager REST API
       url: paintmanager_api
@@ -273,14 +301,14 @@ projects:
       description: Front-end web app for Paintmanager.
       images:
         - title: Paint Status Page
-          full: paint-site.png
-          thumb: paint-site-thumb.png
+          full: paintmanager_web/paint-site.png
+          thumb: paintmanager_web/paint-site-thumb.png
         - title: Filtering paints by name
-          full: paint-name.png
-          thumb: paint-name-thumb.png
+          full: paintmanager_web/paint-name.png
+          thumb: paintmanager_web/paint-name-thumb.png
         - title: Filtering paints by status
-          full: paint-status.png
-          thumb: paint-status-thumb.png
+          full: paintmanager_web/paint-status.png
+          thumb: paintmanager_web/paint-status-thumb.png
 
     - name: Bookmarket
       url: bookmarket

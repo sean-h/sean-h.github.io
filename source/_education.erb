@@ -1,9 +1,16 @@
 <div class="container section">
   <h2>Education</h2>
   <div class="item">
-    <% data.education.listings.each do |ed| %>
-      <h3><%= ed.school %></h3>
-      <h3><%= ed.degree %></h3>
-    <% end %>
+    <div class="education">
+      <% data.education.listings.each do |ed| %>
+        <div class="education-image">
+          <img src="/images/<%= ed.image %>"/>
+        </div>
+        <div class="education-info">
+          <div class="education-school"><%= ed.school %></div>
+          <div class="education-degree"><%= ed.degree %></div>
+        </div>
+      <% end %>
+    </div>
   </div>
 </div>
