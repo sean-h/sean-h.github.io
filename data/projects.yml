@@ -5,25 +5,28 @@ projects:
       technologies:
         - C++
         - OpenGL
-      description: Block Level Editor
+      description: An application to create 3D levels out of block pieces. Users can quickly design levels and export them to be used in any game engine.
       features:
-        - Feature 1
-        - Feature 2
-        - Feature 3
-        - Feature 4
+        - Automatically merge blocks together on export to increase in-game performance.
+        - Draw blocks with custom brushes to speed up level design.
+        - Assign colliders to brushes to draw a separate collision layer.
+        - Users can create their own blocks in any 3d modelling software.
       images:
-        - title: Image 1
+        - title: Placing blocks
           full: blockeditor/BlockEditor1.png
           thumb: blockeditor/BlockEditor1_thumb.png
-        - title: Image 2
+        - title: Extrude tool
           full: blockeditor/BlockEditor2.png
           thumb: blockeditor/BlockEditor2_thumb.png
-        - title: Image 3
+        - title: Stairs with a simplified ramp collider for better collision detection
           full: blockeditor/BlockEditor3.png
           thumb: blockeditor/BlockEditor3_thumb.png
-        - title: Image 4
+        - title: Merged block pieces
           full: blockeditor/BlockEditor4.png
           thumb: blockeditor/BlockEditor4_thumb.png
+        - title: Textured blocks
+          full: blockeditor/BlockEditor5.png
+          thumb: blockeditor/BlockEditor5_thumb.png
 
     - name: Space Shooter
       url: space_shooter
