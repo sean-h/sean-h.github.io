@@ -79,5 +79,5 @@ end
 ignore "/project.html"
 
 data.projects.projects.each do |project|
-  proxy "/projects/#{project.url}", "project.html", :locals => { :project => project }
+  proxy "/projects/#{project.url}/index.html", "project.html", :locals => { :project => project }
 end
