@@ -104,7 +104,7 @@ projects:
           full: zombieshooter/ZombieShooter2.png
           thumb: zombieshooter/ZombieShooter2_thumb.png
         - title: Item pickup
-          full: ZombieShooter3.png
+          full: zombieshooter/ZombieShooter3.png
           thumb: zombieshooter/ZombieShooter3_thumb.png
         - title: Zombies ragdoll when killed
           full: zombieshooter/ZombieShooter4.png
