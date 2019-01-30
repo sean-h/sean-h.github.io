@@ -4,9 +4,11 @@
     <% if project.active == true %>
       <a href="/projects/<%= project.url %>/">
         <div class="project item">
-          <div class="project-list-image">
-            <img src="images/<%= project.images[0].thumb %>"/>
-          </div>
+          <% unless project.images.nil? %>
+            <div class="project-list-image">
+              <img src="images/<%= project.images[0].thumb %>"/>
+            </div>
+          <% end %>
 
           <div class="project-content">
 
