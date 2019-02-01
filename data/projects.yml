@@ -48,6 +48,21 @@ projects:
           full: raytracer/spheres.png
           thumb: raytracer/spheres_thumb.png
 
+    - name: Software Renderer
+      url: software_renderer
+      active: true
+      technologies:
+        - Rust
+      description: A software renderer written in Rust able to display .obj models in real-time without using OpenGL/DirectX. It is based on <a href="https://github.com/ssloy/tinyrenderer">tinyrenderer</a>.
+      features:
+        - Perspective and orthographic projections
+        - Smooth shading
+      github: https://github.com/sean-h/software-renderer
+      images:
+        - title: Head
+          full: softwarerenderer/head.png
+          thumb: softwarerenderer/head_thumb.png
+          
     - name: Space Shooter
       url: space_shooter
       active: true
