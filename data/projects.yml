@@ -1,4 +1,41 @@
 projects:
+    - name: Farming Game
+      url: farming_game
+      active: true
+      technologies:
+        - C#
+        - Unity
+      description: 3D farming game. The player must plant and grow plants to sell. Each crop has its own growth cycle. <em>The game uses art assets from the Unity Asset Store.</em>
+      features:
+        - 21 crops each with unique growth cycles.
+        - Goal system that teaches the player how to play.
+        - Store to buy new seeds and sell crops.
+      images:
+        - title: Rows of planted crops
+          full: farming/farming1.png
+          thumb: farming/farming1_thumb.png
+        - title: Inventory window
+          full: farming/farming2.png
+          thumb: farming/farming2_thumb.png
+        - title: Watering crops
+          full: farming/farming3.png
+          thumb: farming/farming3_thumb.png
+        - title: Removing weeds
+          full: farming/farming4.png
+          thumb: farming/farming4_thumb.png
+        - title: Store menu
+          full: farming/farming5.png
+          thumb: farming/farming5_thumb.png
+        - title: Main menu
+          full: farming/farming6.png
+          thumb: farming/farming6_thumb.png
+        - title: Goals
+          full: farming/farming7.png
+          thumb: farming/farming7_thumb.png
+      videos:
+        - video: farming/farming_vid1.webm
+          thumb: farming/farming_vid1_thumb.png
+
     - name: Block Level Editor
       url: block_editor
       active: true
