@@ -1,0 +1,112 @@
+@charset "utf-8";
+
+body {
+  background: #E7E5DF !important;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 32px;
+  letter-spacing: -1px;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, .5);
+  margin: 0;
+}
+
+h2 {
+  color: #2F6690 !important;
+}
+
+.mailto {
+  display: block;
+}
+
+.github-link {
+  display: block;
+  text-align: right;
+}
+
+.header {
+  text-align: center;
+  padding: 0px 0 15px;
+  margin-top: 15px;
+}
+
+.header .octicon {
+  padding-right: 5px !important;
+}
+
+.education {
+  text-align: center;
+}
+
+.education ul {
+  background: #D3D0CB;
+  border-radius: 25px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.education .octicon {
+  font-size: 32px;
+  margin-right: 0.5em;
+}
+
+.projects h2 {
+  text-align: center;
+}
+
+.project {
+  background: #D3D0CB;
+  border-radius: 25px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.project-title {
+  font-size: 24px;
+}
+
+.projects .octicon {
+  font-size: 32px;
+  margin-right: 0.5em;
+}
+
+.project .octicon {
+  font-size: 64px;
+}
+
+.project .github-link .octicon {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.project-top-bar {
+  margin-top: 5px;
+}
+
+.project h5 {
+  font-weight: bold;
+}
+
+.project .feature {
+  margin-left: 5px;
+}
+
+.project img {
+  border-radius: 5px;
+  margin: 2px;
+  opacity: 1.0;
+}
+
+.media a {
+  text-decoration: none !important;
+}
+
+.project img:hover {
+  opacity: 0.3;
+}
+
+.videos {
+  margin-top: 15px;
+}
